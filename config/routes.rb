@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :directors
+  resources :actors
   #get 'movies/index'
   get 'movies' => "movies#index"
 

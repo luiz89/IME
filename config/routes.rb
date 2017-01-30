@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   #get 'movies/index'
   get 'movies' => "movies#index"
 
+  root 'movies#index'
+
   #get 'movies/new'
   get 'movies/new' =>"movies#new"
 
